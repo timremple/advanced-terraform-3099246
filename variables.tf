@@ -102,3 +102,9 @@ variable "environment_instance_settings" {
     }
   }
 }
+
+variable "gcp-creds" {
+  type = string
+  default = "set me!"
+}
+
